@@ -59,13 +59,14 @@
             display: block;
         }
         header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 20px 50px;
-        background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
-        color: #00ff99;
-        font-family: 'Poppins', sans-serif;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;  /* Ensures vertical centering */
+            padding: 10px 50px;   /* Reduce padding if needed */
+            background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+            color: #00ff99;
+            font-family: 'Poppins', sans-serif;
+            height: 80px;         /* Set a fixed height */
         }
         header h2 {
             font-size: 24px;
