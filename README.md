@@ -72,6 +72,10 @@
             font-weight: bold;
             color: #00ff99;
         }
+        nav {
+            display: flex;
+            align-items: center; /* Ensures vertical alignment */
+        }
         nav ul {
             list-style: none;
             display: flex;
@@ -92,10 +96,17 @@
             transition: color 0.3s ease-in-out;
             display: flex;
             align-items: center; /* Ensures vertical centering */
-            padding: 5px 0;  /* Adjust padding if needed */
+            height: 100%; /* Ensures uniform height */
+            line-height: normal; /* Prevents line-height issues */
         }
         nav ul li a:hover {
             color: #00ff99;
+        }
+        nav ul li {
+            border: 1px solid red;
+        }
+        nav ul li a {
+            border: 1px solid blue;
         }
         h1:first-of-type {
           display: none;
