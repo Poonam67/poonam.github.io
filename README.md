@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -101,8 +100,6 @@
                 <li><a href="#about">ABOUT</a></li>
                 <li><a href="#experience">EXPERIENCE</a></li>
                 <li><a href="#skills">SKILLS</a></li>
-                <li><a href="#education">EDUCATION</a></li>
-                <li><a href="#blogs">BLOGS</a></li>
                 <li><a href="#projects">PROJECTS</a></li>
             </ul>
         </nav>
