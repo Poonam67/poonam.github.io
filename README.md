@@ -81,7 +81,8 @@
             margin: 0;
         }
         nav ul li {
-            display: inline;
+            display: flex;
+            align-items: center; /* This centers the text vertically */
         }
         nav ul li a {
             text-decoration: none;
@@ -89,6 +90,9 @@
             font-size: 16px;
             font-weight: bold;
             transition: color 0.3s ease-in-out;
+            display: flex;
+            align-items: center; /* Ensures vertical centering */
+            padding: 5px 0;  /* Adjust padding if needed */
         }
         nav ul li a:hover {
             color: #00ff99;
