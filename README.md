@@ -59,9 +59,54 @@
             white-space: pre-line;
             display: block;
         }
+        header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 50px;
+        background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+        color: #00ff99;
+        font-family: 'Poppins', sans-serif;
+        }
+        header h1 {
+            font-size: 24px;
+            font-weight: bold;
+            color: #00ff99;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            transition: color 0.3s ease-in-out;
+        }
+        nav ul li a:hover {
+            color: #00ff99;
+        }
     </style>
 </head>
 <body>
+    <header>
+        <h1>Poonam Kalra</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#experience">EXPERIENCE</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#education">EDUCATION</a></li>
+                <li><a href="#blogs">BLOGS</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+            </ul>
+        </nav>
+    </header>
     <div class="container">
         <div class="text-section">
             <h1>Hello, <br> This is <span class="highlight">AB Kalra</span>,<br> I'm a Professional <span class="highlight-green">Software Developer.</span></h1>
