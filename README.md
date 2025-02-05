@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abu Said - Portfolio</title>
+    <title>Poonam kalra - Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
         body {
@@ -64,7 +64,7 @@
 <body>
     <div class="container">
         <div class="text-section">
-            <h1>Hello, <br> This is <span class="highlight">Poonam</span>,<br> I'm a Professional <span class="highlight-green">Software Developer.</span></h1>
+            <h1>Hello, <br> This is <span class="highlight">Poonam Kalra</span>,<br> I'm a Professional <span class="highlight-green">Mobile Developer.</span></h1>
             <div class="buttons">
                 <button>Contact Me</button>
                 <button>Get Resume</button>
@@ -73,7 +73,7 @@
         <div class="code-box">
             <code>
 const coder = {
-    name: 'Abu Said',
+    name: 'Poonam kalra',
     skills: ['React', 'NextJS', 'Redux', 'Express', 'NestJS', 'MySql', 'MongoDB', 'Docker', 'AWS'],
     hardWorker: true,
     quickLearner: true,
