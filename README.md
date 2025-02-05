@@ -22,7 +22,7 @@
         .text-section {
             text-align: left;
         }
-        h1 {
+        h2 {
             font-size: 2.5rem;
         }
         .highlight {
@@ -67,7 +67,7 @@
         color: #00ff99;
         font-family: 'Poppins', sans-serif;
         }
-        header h1 {
+        header h2 {
             font-size: 24px;
             font-weight: bold;
             color: #00ff99;
@@ -97,7 +97,7 @@
 </head>
 <body>
     <header>
-        <h1>Poonam Kalra</h1>
+        <h2>Poonam Kalra</h2>
         <nav>
             <ul>
                 <li><a href="#experience">ABOUT</a></li>
@@ -109,7 +109,7 @@
     </header>
     <div class="container">
         <div class="text-section">
-            <h1>Hello, <br> This is <span class="highlight">AB Kalra</span>,<br> I'm a Professional <span class="highlight-green">Software Developer.</span></h1>
+            <h2>Hello, <br> This is <span class="highlight">AB Kalra</span>,<br> I'm a Professional <span class="highlight-green">Software Developer.</span></h2>
             <div class="buttons">
                 <button>Contact Me</button>
                 <button>Get Resume</button>
