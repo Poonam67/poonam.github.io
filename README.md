@@ -4,77 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Poonam kalra - Portfolio</title>
-    <link rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
-    body {
-        font-family: Arial, sans-serif;
-        background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
-        color: white;
-        margin: 0;
-        padding: 0;
-        text-align: center;
-    }
-    .hero {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        height: 100vh;
-    }
-    .highlight {
-        color: #00ff99;
-    }
-    button {
-        padding: 10px 20px;
-        margin: 10px;
-        border: none;
-        cursor: pointer;
-        border-radius: 5px;
-    }
-    .contact {
-        background: transparent;
-        color: white;
-        border: 2px solid white;
-    }
-    .resume {
-        background: purple;
-        color: white;
-    }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            background: #0f111a;
+            color: white;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh;
+        }
+        .text-section {
+            text-align: left;
+        }
+        h1 {
+            font-size: 2.5rem;
+        }
+        .highlight {
+            color: #ff007f;
+            font-weight: bold;
+        }
+        .highlight-green {
+            color: #00ff99;
+            font-weight: bold;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        button {
+            background: linear-gradient(45deg, #ff007f, #ae49ff);
+            border: none;
+            padding: 10px 20px;
+            color: white;
+            border-radius: 25px;
+            font-size: 1rem;
+            cursor: pointer;
+            margin: 10px;
+        }
+        .code-box {
+            background: #1e1e2e;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: left;
+            font-family: monospace;
+        }
+        .code-box code {
+            color: #ffbf00;
+            white-space: pre-line;
+            display: block;
+        }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Poonam kalra</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="#experience">EXPERIENCE</a></li>
-                <li><a href="#skills">SKILLS</a></li>
-                <li><a href="#education">EDUCATION</a></li>
-                <li><a href="#blogs">BLOGS</a></li>
-                <li><a href="#projects">PROJECTS</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <section class="hero">
-        <div class="text-content">
-            <h2>Hello,</h2>
-            <h1>This is <span class="highlight">Poonam kalra</span>, I'm a <br> Professional <span class="highlight">Software Developer.</span></h1>
-            <div class="social-icons">
-                <a href="#"><img src="github-icon.png" alt="GitHub"></a>
-                <a href="#"><img src="linkedin-icon.png" alt="LinkedIn"></a>
-                <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
-                <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
-            </div>
+    <div class="container">
+        <div class="text-section">
+            <h1>Hello, <br> This is <span class="highlight">AB Kalra</span>,<br> I'm a Professional <span class="highlight-green">Software Developer.</span></h1>
             <div class="buttons">
-                <button class="contact">CONTACT ME</button>
-                <button class="resume">GET RESUME</button>
+                <button>Contact Me</button>
+                <button>Get Resume</button>
             </div>
         </div>
-        
         <div class="code-box">
-            <pre>
-                <code>
+            <code>
 const coder = {
     name: 'Abu Said',
     skills: ['React', 'NextJS', 'Redux', 'Express', 'NestJS', 'MySql', 'MongoDB', 'Docker', 'AWS'],
@@ -85,23 +82,8 @@ const coder = {
         return this.hardWorker && this.problemSolver && this.skills.length >= 5;
     }
 };
-                </code>
-            </pre>
+            </code>
         </div>
-    </section>
-    
-    <script>
-    document.addEventListener("DOMContentLoaded", function() {
-    document.querySelector(".contact").addEventListener("click", function() {
-        alert("Contact button clicked!");
-    });
-
-    document.querySelector(".resume").addEventListener("click", function() {
-        alert("Resume button clicked!");
-    });
-   });
-   </script>
-
+    </div>
 </body>
 </html>
-
