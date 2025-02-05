@@ -75,7 +75,7 @@
         nav ul {
             list-style: none;
             display: flex;
-            gap: 20px;
+            gap: 15px;
         }
         nav ul li {
             display: inline;
