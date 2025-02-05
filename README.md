@@ -90,6 +90,9 @@
         nav ul li a:hover {
             color: #00ff99;
         }
+        h1:first-of-type {
+          display: none;
+        }
     </style>
 </head>
 <body>
