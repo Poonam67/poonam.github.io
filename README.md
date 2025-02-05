@@ -4,11 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Poonam kalra - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet">
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+        color: white;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .hero {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100vh;
+    }
+    .highlight {
+        color: #00ff99;
+    }
+    button {
+        padding: 10px 20px;
+        margin: 10px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .contact {
+        background: transparent;
+        color: white;
+        border: 2px solid white;
+    }
+    .resume {
+        background: purple;
+        color: white;
+    }
+    </style>
 </head>
 <body>
     <header>
-        <h1>ABU SAID</h1>
+        <h1>Poonam kalra</h1>
         <nav>
             <ul>
                 <li><a href="#about">ABOUT</a></li>
@@ -55,47 +90,8 @@ const coder = {
         </div>
     </section>
     
-    <script src="script.js"></script>
-</body>
-</html>
-
-/* styles.css */
-body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
-    color: white;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-.hero {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 100vh;
-}
-.highlight {
-    color: #00ff99;
-}
-button {
-    padding: 10px 20px;
-    margin: 10px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-}
-.contact {
-    background: transparent;
-    color: white;
-    border: 2px solid white;
-}
-.resume {
-    background: purple;
-    color: white;
-}
-
-/* script.js */
-document.addEventListener("DOMContentLoaded", function() {
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
     document.querySelector(".contact").addEventListener("click", function() {
         alert("Contact button clicked!");
     });
@@ -103,4 +99,9 @@ document.addEventListener("DOMContentLoaded", function() {
     document.querySelector(".resume").addEventListener("click", function() {
         alert("Resume button clicked!");
     });
-});
+   });
+   </script>
+
+</body>
+</html>
+
