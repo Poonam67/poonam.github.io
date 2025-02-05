@@ -97,9 +97,9 @@
         <h1>Poonam Kalra</h1>
         <nav>
             <ul>
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="#experience">EXPERIENCE</a></li>
-                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#experience">ABOUT</a></li>
+                <li><a href="#skills">EXPERIENCE</a></li>
+                <li><a href="#blogs">SKILLS</a></li>
                 <li><a href="#projects">PROJECTS</a></li>
             </ul>
         </nav>
