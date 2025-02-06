@@ -116,14 +116,15 @@
         <div class="logo">&#x2728;Portfolio</div>
         <nav>
             <ul class="nav-menu">
-                <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="#">Lab</a></li>
+                <li><a href="#">Experience</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Project</a></li>
             </ul>
         </nav>
     </header>
     <section class="hero">
-        <h1>Hello! I am <span class="highlight">Ibrahim Memon</span></h1>
+        <h1>Hello! I am <span class="highlight">Poonam Kalra</span></h1>
         <p>A Designer who <span class="gradient-text">Judges a book by its cover</span></p>
         <p>Currently, I'm a Software Engineer at <span class="blue">Facebook</span></p>
     </section>
@@ -159,7 +160,7 @@
         </div>
     </section>
     <footer>
-        <p>Contact: ibrahimmemon203@gmail.com</p>
+        <p>Contact: poonamkalra67@gmail.com</p>
     </footer>
 </body>
 </html>
