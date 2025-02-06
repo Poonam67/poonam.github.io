@@ -124,7 +124,7 @@
         </nav>
     </header>
     <section class="hero">
-        <img src="https://github.com/Poonam67/poonam.github.io/blob/main/media/logo.jpg" alt="Profile Picture">
+        <img src="media/logo.jpg" alt="Profile Picture">
         <div class="hero-content">
             <h1>Hello! I am <span class="highlight">Poonam kalra</span></h1>
             <p>A Designer who <span class="gradient-text">Judges a book by its cover</span></p>
