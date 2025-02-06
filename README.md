@@ -7,84 +7,89 @@
     <link rel="stylesheet" href="styles.css">
     <style>
         body {
-            background-color: #0d0d0d;
-            color: #fff;
             font-family: Arial, sans-serif;
+            background-color: #0d0d0d;
+            color: white;
             margin: 0;
             padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #111;
+            padding: 15px 0;
         }
         nav {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 20px;
-            background-color: #111;
+            padding: 0 20px;
         }
         .logo {
             font-size: 24px;
-            font-weight: bold;
         }
-        ul {
+        nav ul {
             list-style: none;
             display: flex;
-            gap: 20px;
+            gap: 15px;
         }
-        li a {
-            color: #fff;
+        nav a {
+            color: white;
             text-decoration: none;
-            font-size: 18px;
         }
         .hero {
-            text-align: center;
-            padding: 100px 20px;
+            margin: 50px 0;
         }
         .highlight {
             background: linear-gradient(90deg, #ff00ff, #ffcc00);
             padding: 5px 10px;
             border-radius: 5px;
-            color: #000;
-            font-weight: bold;
         }
         .gradient-text {
             background: linear-gradient(90deg, #ff00ff, #00ffff);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            font-weight: bold;
         }
-        .work-experience, .projects {
-            padding: 50px 20px;
-            text-align: center;
+        .blue {
+            color: #008cff;
         }
-        .cards {
+        .experience {
+            margin: 50px 0;
+        }
+        .experience-container {
             display: flex;
             justify-content: center;
-            flex-wrap: wrap;
-            gap: 20px;
+            gap: 10px;
         }
-        .card {
+        .experience-card {
+            background: #222;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        .projects {
+            margin: 50px 0;
+        }
+        .project-card {
             background: #222;
             padding: 20px;
             border-radius: 10px;
-            font-weight: bold;
-            width: 200px;
-            text-align: center;
-            transition: 0.3s;
+            display: inline-block;
+            text-align: left;
         }
-        .card:hover {
-            background: #333;
-            transform: scale(1.05);
+        .project-card img {
+            width: 100%;
+            border-radius: 5px;
         }
         footer {
-            text-align: center;
+            margin-top: 50px;
             padding: 20px;
-            background-color: #111;
+            background: #111;
         }
     </style>
 </head>
 <body>
     <header>
         <nav>
-            <div class="logo">&#x292;</div>
+            <div class="logo">&#x2728;</div>
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
@@ -94,24 +99,27 @@
     </header>
     <section class="hero">
         <h1>Hello! I am <span class="highlight">Ibrahim Memon</span></h1>
-        <h2>A Designer who <span class="gradient-text">Judges a book by its cover</span></h2>
-        <p>Currently, I'm a Software Engineer at <a href="#">Facebook</a></p>
+        <p>A Designer who <span class="gradient-text">Judges a book by its cover</span></p>
+        <p>Currently, I'm a Software Engineer at <span class="blue">Facebook</span></p>
     </section>
-    <section class="work-experience">
+    <section class="experience">
         <h2>Work Experience</h2>
-        <div class="cards">
-            <div class="card">CIB on the Mobile</div>
-            <div class="card">CIB on the Mobile</div>
-            <div class="card">CIB on the Mobile</div>
-            <div class="card">CIB on the Mobile</div>
+        <div class="experience-container">
+            <div class="experience-card">CIB on the Mobile</div>
+            <div class="experience-card">CIB on the Mobile</div>
+            <div class="experience-card">CIB on the Mobile</div>
+            <div class="experience-card">CIB on the Mobile</div>
         </div>
     </section>
     <section class="projects">
-        <h2>Example Project</h2>
-        <p>A web app for visualizing personalized Spotify data.</p>
+        <h2>Featured Project</h2>
+        <div class="project-card">
+            <img src="project-image.png" alt="Project Screenshot">
+            <p>A web app for visualizing personalized Spotify data...</p>
+        </div>
     </section>
     <footer>
-        <p>Contact me at ibrahimmemon203@gmail.com</p>
+        <p>Contact: ibrahimmemon203@gmail.com</p>
     </footer>
 </body>
 </html>
