@@ -7,22 +7,18 @@
     <link rel="stylesheet" href="styles.css">
     <style>
         body {
-            font-family: Arial, sans-serif;
             background-color: #0d0d0d;
-            color: white;
+            color: #fff;
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            text-align: center;
         }
         header {
-            background-color: #111;
-            padding: 15px 0;
-        }
-        nav {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 0 20px;
+            padding: 20px;
+            background: #111;
         }
         .logo {
             font-size: 24px;
@@ -30,14 +26,15 @@
         nav ul {
             list-style: none;
             display: flex;
-            gap: 15px;
+            gap: 20px;
         }
-        nav a {
-            color: white;
+        nav ul li a {
             text-decoration: none;
+            color: #fff;
         }
         .hero {
-            margin: 50px 0;
+            text-align: center;
+            padding: 50px 20px;
         }
         .highlight {
             background: linear-gradient(90deg, #ff00ff, #ffcc00);
@@ -45,42 +42,39 @@
             border-radius: 5px;
         }
         .gradient-text {
-            background: linear-gradient(90deg, #ff00ff, #00ffff);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            color: cyan;
         }
         .blue {
-            color: #008cff;
+            color: #3498db;
         }
         .experience {
-            margin: 50px 0;
+            text-align: center;
+            padding: 50px 20px;
         }
         .experience-container {
             display: flex;
             justify-content: center;
-            gap: 10px;
+            gap: 20px;
+            flex-wrap: wrap;
         }
         .experience-card {
             background: #222;
-            padding: 15px;
-            border-radius: 10px;
+            padding: 15px 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
         }
         .projects {
-            margin: 50px 0;
+            text-align: center;
+            padding: 50px 20px;
         }
         .project-card {
             background: #222;
             padding: 20px;
-            border-radius: 10px;
+            border-radius: 8px;
             display: inline-block;
-            text-align: left;
-        }
-        .project-card img {
-            width: 100%;
-            border-radius: 5px;
         }
         footer {
-            margin-top: 50px;
+            text-align: center;
             padding: 20px;
             background: #111;
         }
@@ -88,8 +82,8 @@
 </head>
 <body>
     <header>
+        <div class="logo">✨ Portfolio</div>
         <nav>
-            <div class="logo">&#x2728;</div>
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
@@ -105,16 +99,16 @@
     <section class="experience">
         <h2>Work Experience</h2>
         <div class="experience-container">
-            <div class="experience-card">CIB on the Mobile</div>
-            <div class="experience-card">CIB on the Mobile</div>
-            <div class="experience-card">CIB on the Mobile</div>
-            <div class="experience-card">CIB on the Mobile</div>
+            <div class="experience-card">CIB on the Mobile - UI/UX Designer</div>
+            <div class="experience-card">CIB on the Mobile - Frontend Developer</div>
+            <div class="experience-card">CIB on the Mobile - Product Designer</div>
+            <div class="experience-card">CIB on the Mobile - Software Engineer</div>
         </div>
     </section>
     <section class="projects">
         <h2>Featured Project</h2>
         <div class="project-card">
-            <img src="project-image.png" alt="Project Screenshot">
+            <img src="project-image.png" alt="Project Screenshot" width="300">
             <p>A web app for visualizing personalized Spotify data...</p>
         </div>
     </section>
