@@ -40,10 +40,20 @@
         }
         .hero {
             display: flex;
-            flex-direction: column;
             align-items: center;
             justify-content: center;
             height: 50vh;
+            text-align: left;
+            padding: 20px;
+        }
+        .hero img {
+            width: 200px;
+            height: auto;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        .hero-content {
+            max-width: 600px;
         }
         .experience-container {
             display: flex;
