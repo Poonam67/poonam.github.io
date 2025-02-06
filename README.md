@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Poonam kalra - Portfolio</title>
+    <title>Poonam Kalra - Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
         body {
@@ -59,13 +59,13 @@
             display: block;
         }
         header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 20px 50px;
-        background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
-        color: #00ff99;
-        font-family: 'Poppins', sans-serif;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+            color: #00ff99;
+            font-family: 'Poppins', sans-serif;
         }
         header h2 {
             font-size: 24px;
@@ -74,19 +74,21 @@
         }
         nav {
             display: flex;
-            align-items: center; /* Ensures vertical alignment */
+            align-items: center;
         }
         nav ul {
             list-style: none;
             display: flex;
             gap: 20px;
-            align-items: center; /* Ensure all items are aligned */
             padding: 0;
             margin: 0;
+            align-items: center;
         }
         nav ul li {
             display: flex;
-            align-items: center; /* This centers the text vertically */
+            align-items: center;
+            margin: 0;
+            padding: 0;
         }
         nav ul li a {
             text-decoration: none;
@@ -95,21 +97,13 @@
             font-weight: bold;
             transition: color 0.3s ease-in-out;
             display: flex;
-            align-items: center; /* Ensures vertical centering */
-            height: 100%; /* Ensures uniform height */
-            line-height: normal; /* Prevents line-height issues */
+            align-items: center;
         }
         nav ul li a:hover {
             color: #00ff99;
         }
-        nav ul li {
-            border: 1px solid red;
-        }
-        nav ul li a {
-            border: 1px solid blue;
-        }
         h1:first-of-type {
-          display: none;
+            display: none;
         }
     </style>
 </head>
