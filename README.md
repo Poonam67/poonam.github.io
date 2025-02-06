@@ -86,9 +86,9 @@
         }
         nav ul li {
             display: flex;
-            align-items: center;
-            margin: 0;
-            padding: 0;
+            align-items: center; /* Ensures vertical alignment */
+            justify-content: center;
+            height: 100%; /* Normalizes height */
         }
         nav ul li a {
             text-decoration: none;
@@ -98,6 +98,10 @@
             transition: color 0.3s ease-in-out;
             display: flex;
             align-items: center;
+            justify-content: center;
+            padding: 10px 15px; /* Ensures consistent spacing */
+            height: 40px; /* Fixed height for uniformity */
+            line-height: normal;
         }
         nav ul li a:hover {
             color: #00ff99;
