@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,84 +6,116 @@
     <link rel="stylesheet" href="styles.css">
     <style>
         body {
-            background-color: #0d0d0d;
-            color: #fff;
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #121212;
+            color: white;
+            text-align: center;
         }
         header {
             display: flex;
             justify-content: space-between;
             align-items: center;
             padding: 20px;
-            background: #111;
+            background-color: #1e1e1e;
         }
-        .logo {
-            font-size: 24px;
-        }
-        nav ul {
+        .nav-menu {
             list-style: none;
             display: flex;
-            gap: 20px;
+            gap: 50px;
+            margin: 0;
+            padding: 0;
         }
-        nav ul li a {
+        .nav-menu li {
+            display: inline;
+        }
+        .nav-menu a {
             text-decoration: none;
-            color: #fff;
+            color: white;
+            font-size: 18px;
+        }
+        nav {
+            margin-left: auto;
         }
         .hero {
-            text-align: center;
-            padding: 50px 20px;
-        }
-        .highlight {
-            background: linear-gradient(90deg, #ff00ff, #ffcc00);
-            padding: 5px 10px;
-            border-radius: 5px;
-        }
-        .gradient-text {
-            color: cyan;
-        }
-        .blue {
-            color: #3498db;
-        }
-        .experience {
-            text-align: center;
-            padding: 50px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 50vh;
         }
         .experience-container {
             display: flex;
-            justify-content: center;
-            gap: 20px;
-            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
         }
         .experience-card {
-            background: #222;
-            padding: 15px 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            background-color: #232323;
+            padding: 20px;
+            border-radius: 10px;
+            width: 60%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+            text-align: left;
+            position: relative;
+        }
+        .experience-card::before {
+            content: "";
+            position: absolute;
+            left: -10px;
+            top: 10px;
+            width: 5px;
+            height: 90%;
+            background-color: #ff9800;
+            border-radius: 5px;
+        }
+        .experience-card h3 {
+            margin: 10px 0;
+            color: #ff9800;
+        }
+        .experience-card p {
+            margin: 5px 0;
         }
         .projects {
+            margin: 40px 0;
             text-align: center;
-            padding: 50px 20px;
         }
         .project-card {
-            background: #222;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #232323;
             padding: 20px;
-            border-radius: 8px;
-            display: inline-block;
+            border-radius: 10px;
+            width: 60%;
+            margin: 0 auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: #111;
+        .project-card img {
+            width: 150px;
+            height: auto;
+            border-radius: 10px;
+            margin-right: 20px;
+        }
+        .project-card div {
+            text-align: left;
+        }
+        .project-card h3 {
+            margin: 0 0 10px;
+            color: #ff9800;
+        }
+        h1:first-of-type {
+            display: none;
         }
     </style>
 </head>
 <body>
     <header>
-        <div class="logo">✨ Portfolio</div>
+        <div class="logo">&#x2728;Portfolio</div>
         <nav>
-            <ul>
+            <ul class="nav-menu">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Lab</a></li>
@@ -99,17 +130,32 @@
     <section class="experience">
         <h2>Work Experience</h2>
         <div class="experience-container">
-            <div class="experience-card">CIB on the Mobile - UI/UX Designer</div>
-            <div class="experience-card">CIB on the Mobile - Frontend Developer</div>
-            <div class="experience-card">CIB on the Mobile - Product Designer</div>
-            <div class="experience-card">CIB on the Mobile - Software Engineer</div>
+            <div class="experience-card">
+                <h3>Software Engineer at Facebook</h3>
+                <p>Developing scalable web applications and leading frontend development for multiple projects.</p>
+                <p><strong>Duration:</strong> 2022 - Present</p>
+            </div>
+            <div class="experience-card">
+                <h3>Frontend Developer at Google</h3>
+                <p>Worked on UI/UX for Google's internal tools, enhancing performance and usability.</p>
+                <p><strong>Duration:</strong> 2019 - 2022</p>
+            </div>
+            <div class="experience-card">
+                <h3>Intern at Microsoft</h3>
+                <p>Contributed to open-source projects and assisted in developing a real-time dashboard.</p>
+                <p><strong>Duration:</strong> 2018 - 2019</p>
+            </div>
         </div>
     </section>
     <section class="projects">
         <h2>Featured Project</h2>
         <div class="project-card">
-            <img src="project-image.png" alt="Project Screenshot" width="300">
-            <p>A web app for visualizing personalized Spotify data...</p>
+            <img src="project-image.png" alt="Project Screenshot">
+            <div>
+                <h3>Spotify Data Visualizer</h3>
+                <p>A web app for visualizing personalized Spotify data using React and D3.js.</p>
+                <p><strong>Technologies:</strong> React, D3.js, Spotify API</p>
+            </div>
         </div>
     </section>
     <footer>
