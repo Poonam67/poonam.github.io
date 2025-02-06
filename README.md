@@ -124,9 +124,12 @@
         </nav>
     </header>
     <section class="hero">
-        <h1>Hello! I am <span class="highlight">Poonam Kalra</span></h1>
-        <p>A Designer who <span class="gradient-text">Judges a book by its cover</span></p>
-        <p>Currently, I'm a Software Engineer at <span class="blue">Facebook</span></p>
+        <img src="https://github.com/Poonam67/poonam.github.io/blob/main/media/logo.jpg" alt="Profile Picture">
+        <div class="hero-content">
+            <h1>Hello! I am <span class="highlight">Poonam kalra</span></h1>
+            <p>A Designer who <span class="gradient-text">Judges a book by its cover</span></p>
+            <p>Currently, I'm a Software Engineer at <span class="blue">Facebook</span></p>
+        </div>
     </section>
     <section class="experience">
         <h2>Work Experience</h2>
