@@ -136,8 +136,8 @@
     <section class="hero">
         <img src="media/logo.png" alt="Profile Picture" height="200" width="200">
         <div class="hero-content">
-            <h1>Hello! I am <span class="highlight">Poonam kalra</span></h1>
-            <p>A Designer who <span class="gradient-text">Judges a book by its cover</span></p>
+            <h1>Hello! I am <span class="highlight">Poonam kalra.</span></h1>
+            <p>A passionate Flutter developer with strong expertise in cross-platform apps, REST APIs, UI/UX, widgets, and state management solutions</p>
             <p>Currently, I'm a Software Engineer at <span class="blue">Facebook</span></p>
         </div>
     </section>
