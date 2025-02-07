@@ -137,7 +137,7 @@
         <img src="media/logo.png" alt="Profile Picture" height="200" width="200">
         <div class="hero-content">
             <h2>Hello! I am Poonam kalra.</h2>
-            <p>A passionate Flutter developer with 5 years of experience in cross-platform apps, REST APIs, UI/UX, widgets, and state management solutions.I specialize in creating beautiful, user-friendly, and scalable apps using Flutter and Dart. Let's build something amazing together!</p>
+            <p>A passionate Flutter developer with 5 years of experience in cross-platform apps, REST APIs, UI/UX, widgets, and state management solutions.I specialize in creating beautiful, user-friendly, and scalable apps using Flutter and Dart. Let's build something amazing together!. Contributed to 50-plus open source projects within the organization including AI Agents and CI/CD pipelines using Fastlane Match</p>
             <p>Currently, I'm a Senior Associate Engineer at <span class="blue">Successive Digital</span></p>
         </div>
     </section>
@@ -155,7 +155,7 @@
                 <p><strong>Duration:</strong> 2020 - 2021</p>
             </div>
             <div class="experience-card">
-                <h3>Appkul Technologies Pvt. Ltd.</h3>
+                <h3>Android App developer at Appkul Technologies Pvt. Ltd.</h3>
                 <p>I work here with two live projects i.e e-commerce and home workout</p>
                 <p><strong>Duration:</strong> 2019 - 2020</p>
             </div>
