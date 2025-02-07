@@ -138,7 +138,7 @@
         <div class="hero-content">
             <h2>Hello! I am Poonam kalra.</h2>
             <p>A passionate Flutter developer with strong expertise in cross-platform apps, REST APIs, UI/UX, widgets, and state management solutions</p>
-            <p>Currently, I'm a Software Engineer at <span class="blue">Facebook</span></p>
+            <p>Currently, I'm a Senior Associate Engineer at <span class="blue">Successive Digital</span></p>
         </div>
     </section>
     <section class="experience">
