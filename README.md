@@ -137,7 +137,7 @@
         <img src="media/logo.png" alt="Profile Picture" height="200" width="200">
         <div class="hero-content">
             <h2>Hello! I am Poonam kalra.</h2>
-            <p>A passionate Flutter developer with strong expertise in cross-platform apps, REST APIs, UI/UX, widgets, and state management solutions</p>
+            <p>A passionate Flutter developer with 5 years of experience in cross-platform apps, REST APIs, UI/UX, widgets, and state management solutions.I specialize in creating beautiful, user-friendly, and scalable apps using Flutter and Dart. Let's build something amazing together!</p>
             <p>Currently, I'm a Senior Associate Engineer at <span class="blue">Successive Digital</span></p>
         </div>
     </section>
@@ -145,19 +145,19 @@
         <h2>Work Experience</h2>
         <div class="experience-container">
             <div class="experience-card">
-                <h3>Software Engineer at Facebook</h3>
-                <p>Developing scalable web applications and leading frontend development for multiple projects.</p>
+                <h3>Sr. Associate Engineer at Successive Digital</h3>
+                <p>Developing scalable mobile applications for multiple projects.</p>
                 <p><strong>Duration:</strong> 2022 - Present</p>
             </div>
             <div class="experience-card">
-                <h3>Frontend Developer at Google</h3>
-                <p>Worked on UI/UX for Google's internal tools, enhancing performance and usability.</p>
-                <p><strong>Duration:</strong> 2019 - 2022</p>
+                <h3>Mobile Developer at Abc Info Soft Pvt. Ltd.</h3>
+                <p>Worked on real estate construction as a pre and post sales.</p>
+                <p><strong>Duration:</strong> 2020 - 2021</p>
             </div>
             <div class="experience-card">
-                <h3>Intern at Microsoft</h3>
-                <p>Contributed to open-source projects and assisted in developing a real-time dashboard.</p>
-                <p><strong>Duration:</strong> 2018 - 2019</p>
+                <h3>Appkul Technologies Pvt. Ltd.</h3>
+                <p>I work here with two live projects i.e e-commerce and home workout</p>
+                <p><strong>Duration:</strong> 2019 - 2020</p>
             </div>
         </div>
     </section>
